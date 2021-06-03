@@ -8,20 +8,16 @@
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <GenericName>Corral</GenericName>
+    <GenericName>Stable</GenericName>
     <Civ>xion</Civ>
-    <VisibleClasses datatype="tokens">Corral</VisibleClasses>
+    <VisibleClasses datatype="tokens">Stable</VisibleClasses>
   </Identity>
   <Obstruction>
     <Static width="26.0" depth="26.0"/>
   </Obstruction>
   <ProductionQueue>
-    <Entities datatype="tokens">
-      gaia/fauna_sheep_trainable
-    </Entities>
     <Technologies datatype="tokens">
-      -unlock_champion_cavalry
-      gather_animals_nomadic_pastoralism
+      unlock_champion_cavalry
     </Technologies>
   </ProductionQueue>
   <BuildRestrictions>
